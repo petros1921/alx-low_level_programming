@@ -2,7 +2,7 @@
 
 /**
  * print_linr - Draws a straight line according to parameter
- * @n: The number of line to draw
+ * @n: The number of lines to draw
  * Return: empty
  */
 
