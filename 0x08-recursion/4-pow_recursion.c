@@ -3,7 +3,7 @@
 /**
  * _pow_recursion - Retruns thr value of x raised to the power of y
  * @x: the value to multiply
- * @y: the times to multiply the value 
+ * @y: the times to multiply the value
  *
  * Return: the value multiplied y times
  */
