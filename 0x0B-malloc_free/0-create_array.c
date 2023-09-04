@@ -8,7 +8,7 @@
  *
  * Return: The array filled
  */
-char *create_array(unsigned int size, char c)
+char *creat_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *s;
