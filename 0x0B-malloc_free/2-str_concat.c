@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * str_concat - Concatenates two strings of any size
- * @s1: the first string to concatenate
+ * str_concat - Concatenes two string of any size
+ * @s1: the first string to cocatenae
  * @s2: the second string to concatenate
  *
- * Return: the two strings concatenated
+ * Return: the two strings concentenated
  */
 
 char *str_concat(char *s1, char *s2)
@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 	while (s1[i])
 		i++;
 
-	while (s2[i])
+	while (s2[j])
 		j++;
 
 	l = i + j;
@@ -42,13 +42,13 @@ char *str_concat(char *s1, char *s2)
 
 		if (k >= i)
 		{
-			s[k] = s1[k];
+			s[k] = s2[j];
 			j++;
 		}
 
 		k++;
 	}
-
+	
 	s[k] = '\0';
 	return (s);
 }
