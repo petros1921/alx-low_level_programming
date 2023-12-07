@@ -2,19 +2,20 @@
 #define LISTS_H
 
 /**
- * struct listint_s - singly linked list
+ * struct dlistint_s - singly linked list
  * @n: integer
  * @next: points to the next node
- *
+ * @prev: points to the previous node
  * Description: singly linked list node structure
  *
  */
 
-typedef struct listint_s
+typedef struct dlistint_s
 {
     int n;
-    struct listint_s *next;
-} listint_t;
+    struct dlistint_s *next;
+    struct dlistint_s *prev;
+} dlistint_t;
 
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
